@@ -10,12 +10,6 @@
     "url": "https://github.com/BaloMueller/javascript-errorcollector.git"
   },
   "main": "./errorcollector.js",
-  "engines": {
-    "node": "*"
-  },
-  "dependencies": {
-    "stacktrace-js": "0.5.x"
-    },
-  "devDependencies": {
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
