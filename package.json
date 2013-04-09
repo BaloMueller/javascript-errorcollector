@@ -1,0 +1,22 @@
+{
+  "name": "errorcollector-js",
+  "description": "Collect javascript errors and send to a central endpoint",
+  "author": "Sebastian Mueller <balomueller@googlemail.com> (http://blog.pimmelpammel.de)",
+  "version": "0.1.0",
+  "keywords": ["exception-handling", "errors", "error-handling", "stack-trace", "cross-browser", "client", "browser"],
+  "homepage": "https://github.com/BaloMueller/javascript-errorcollector",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BaloMueller/javascript-errorcollector.git"
+  },
+  "main": "./errorcollector.js",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "stacktrace-js": "0.5.x"
+    },
+  "devDependencies": {
+    "jshint": "0.9.x"
+  }
+}
