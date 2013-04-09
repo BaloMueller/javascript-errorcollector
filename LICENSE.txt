@@ -1,0 +1,5 @@
+errorcollector - Collect javascript errors and send to a central endpoint
+
+Copyright 2013, Sebastian Mueller
+Licensed under the MIT license.
+http://www.opensource.org/licenses/MIT
