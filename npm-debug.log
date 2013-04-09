@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'jasmine-core' ]
+2 info using npm@1.2.17
+3 info using node@v0.10.3
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose read json C:\Sources\git\javascript-errorcollector\package.json
+6 warn package.json errorcollector-js@0.1.0 No README.md file found!
+7 verbose read json C:\Sources\git\javascript-errorcollector\node_modules\jshint\package.json
+8 verbose read json C:\Sources\git\javascript-errorcollector\node_modules\stacktrace-js\package.json
+9 verbose from cache C:\Sources\git\javascript-errorcollector\package.json
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'jasmine-core', null ]
+12 verbose cache add name=undefined spec="jasmine-core" args=["jasmine-core",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'jasmine-core',
+13 verbose parsed url   path: 'jasmine-core',
+13 verbose parsed url   href: 'jasmine-core' }
+14 silly lockFile a28dc1b2-jasmine-core jasmine-core
+15 verbose lock jasmine-core C:\Users\smueller\AppData\Roaming\npm-cache\a28dc1b2-jasmine-core.lock
+16 silly lockFile a28dc1b2-jasmine-core jasmine-core
+17 silly lockFile a28dc1b2-jasmine-core jasmine-core
+18 verbose addNamed [ 'jasmine-core', '' ]
+19 verbose addNamed [ null, '' ]
+20 silly lockFile 6c28bc44-jasmine-core jasmine-core@
+21 verbose lock jasmine-core@ C:\Users\smueller\AppData\Roaming\npm-cache\6c28bc44-jasmine-core.lock
+22 silly addNameRange { name: 'jasmine-core', range: '', hasData: false }
+23 verbose url raw jasmine-core
+24 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine-core' ]
+25 verbose url resolved https://registry.npmjs.org/jasmine-core
+26 info trying registry request attempt 1 at 15:31:38
+27 http GET https://registry.npmjs.org/jasmine-core
+28 http 404 https://registry.npmjs.org/jasmine-core
+29 silly registry.get cb [ 404,
+29 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+29 silly registry.get     date: 'Tue, 09 Apr 2013 13:31:39 GMT',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'content-length': '52',
+29 silly registry.get     'cache-control': 'must-revalidate' } ]
+30 silly lockFile 6c28bc44-jasmine-core jasmine-core@
+31 silly lockFile 6c28bc44-jasmine-core jasmine-core@
+32 error 404 'jasmine-core' is not in the npm registry.
+32 error 404 You should bug the author to publish it
+32 error 404
+32 error 404 Note that you can also install from a
+32 error 404 tarball, folder, or http url, or git url.
+33 error System Windows_NT 6.2.9200
+34 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "jasmine-core"
+35 error cwd C:\Sources\git\javascript-errorcollector
+36 error node -v v0.10.3
+37 error npm -v 1.2.17
+38 error code E404
+39 verbose exit [ 1, true ]
