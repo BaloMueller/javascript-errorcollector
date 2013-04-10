@@ -1,19 +1,21 @@
-var otherOnerror = window.onerror;
-window.onerror = function(msg,url,l) {
-    'use strict';
+(function() {
+	var otherOnerror = window.onerror;
+	window.onerror = function(msg,url,l) {
+	    'use strict';
 
-    if (otherOnerror) {
-		otherOnerror(msg, url, l);
-	}
+	    if (otherOnerror) {
+			otherOnerror(msg, url, l);
+		}
 
-	var bag = {
-		'msg': msg ? msg : '',
-		'url': url ? url : '',
-		'line': l ? l : '',
-		'platform': navigator.platform,
-		'userAgent': navigator.userAgent
+		var bag = {
+			'msg': msg ? msg : '',
+			'url': url ? url : '',
+			'line': l ? l : '',
+			'platform': navigator.platform,
+			'userAgent': navigator.userAgent
+		};
+
+
+		$.post("/diagnostics/javascriptexceptions", bag);
 	};
-
-
-	$.post("/diagnostics/javascriptexceptions", bag);
-};
+})();
