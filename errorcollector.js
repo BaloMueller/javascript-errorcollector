@@ -8,9 +8,9 @@
     }
 
     var bag = {
-        'msg': msg ? msg : '',
-        'url': url ? url : '',
-        'line': l ? l : '',
+        'msg': msg || '',
+        'url': url || '',
+        'line': l || '',
         'platform': navigator.platform,
         'userAgent': navigator.userAgent
     };
