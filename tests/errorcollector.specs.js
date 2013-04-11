@@ -1,10 +1,5 @@
 'use strict';
 
-	setTimeout(function() {
-		throw "unhandled exception";					
-		throw "unhandled exception";	
-	}, 0);
-
 describe('Always', function() {
 	it('should attach to window.onerror', function() {
 		expect(window.onerror).not.toBe(null);

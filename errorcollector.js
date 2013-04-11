@@ -9,6 +9,8 @@
 
     var bag = {
         'msg': msg || '',
+        'location': document.location.href,
+        'referrer': document.referrer,
         'url': url || '',
         'line': l || '',
         'platform': navigator.platform,
