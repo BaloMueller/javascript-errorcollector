@@ -3,3 +3,7 @@ The javascript-errorcollector listens on the DOM onerror event, tries to gather 
 
 The default endpoint URL is 
     /diagnostics/logimage
+
+
+## Thanks ##
+Big thanks for his help go to [alawrence](https://github.com/alawrence "alawrence")
