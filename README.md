@@ -6,4 +6,4 @@ The default endpoint URL is
 
 
 ## Thanks ##
-Big thanks for his help go to [alawrence](https://github.com/alawrence "alawrence")
+Big thanks for his help go to [alexlawrence](https://github.com/alexlawrence "alexlawrence")
